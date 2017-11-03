@@ -1,6 +1,5 @@
 jQuery(document).ready(function(){
    
-   
    /* Checked Default condition for radio button */
    if($('.payment_type').is(':checked')) { 
        var payment_type = $('.payment_type:checked').val();
@@ -9,7 +8,8 @@ jQuery(document).ready(function(){
             jQuery("#billing_form").attr('action','');
         }else{
             jQuery(".card_info_div").hide();
-            jQuery("#billing_form").attr('action','https://www.sandbox.paypal.com/cgi-bin/webscr');
+            jQuery("#billing_form").attr('action','https://www.paypal.com/cgi-bin/webscr');
+			
         }
    }
    
@@ -22,7 +22,7 @@ jQuery(document).ready(function(){
             jQuery("#billing_form").attr('action','');
         }else{
             jQuery(".card_info_div").hide();
-            jQuery("#billing_form").attr('action','https://www.sandbox.paypal.com/cgi-bin/webscr');
+            jQuery("#billing_form").attr('action','https://www.paypal.com/cgi-bin/webscr');
         }
    });
 });

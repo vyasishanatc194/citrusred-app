@@ -6323,3 +6323,7 @@ ul.over_view_contact li {
 .editing-theme-box .right-no {
  width: auto !important;
 }
+
+.font_delete p{
+ font-size: 13px !important;
+}

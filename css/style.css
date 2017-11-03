@@ -3000,3 +3000,15 @@ ul.pagination li a:active {
   }
 }
 /*------------------------------------------------------- RESPONSIVE END ---------------------------------------------- */
+
+/**---------Added by Jui------------**/
+
+.custom_landing {
+    margin-top: 300px !important;
+}
+
+p.custom_te {
+    font-size: 40px !important;
+}
+
+/**---------Added by Jui------------**/

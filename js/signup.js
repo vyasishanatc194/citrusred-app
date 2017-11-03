@@ -154,12 +154,7 @@
       }
 
       var custom_fld_name = field_name.split(' ').join('_') ;
-<<<<<<< HEAD
       custom_fld_name = field_name.split("'").join('_') ;  
-=======
-	custom_fld_name = field_name.split("'").join('_') ;    
-
->>>>>>> origin/master
       if (field_name == "") {
         $('.' + field_name + '_fld').remove();
       } else {

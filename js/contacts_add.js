@@ -72,7 +72,7 @@ function ajaxSubscriberFrm(frm, action) {
           $.unblockUI();
         } else if (data_arr[0] == "copy_success") {
           $('.subscriber_msg').show();
-          $('.subscriber_msg').html('Your list import is under process. Larger lists will take longer. However, navigating away from this page will not interrupt the upload. After completion of process, you will be informed by email.');
+          $('.subscriber_msg').html('While your contacts are uploading, we wanted to share that your contact list will be graded for deliverability before your first campaign is released, helping us maintain sending reputation for you and our other customers. If for some reason your contact list does not pass our deliverability grade, our support team will reach out to you for next steps.  In the meantime, please feel free to create and schedule your campaign(s). Navigating away from this page will not interrupt the upload. After completion of process, you will be informed by email.');
           $('.subscriber_msg').addClass('info');
           window.location.href = base_url + 'newsletter/contacts/index/' + selected_list_id;
         } else if (data_arr[0] == "success") {
@@ -132,7 +132,7 @@ function ajaxFileUpload() {
 			$.unblockUI();
         } else {
 
-          var msg = "Your list import is under process. Larger lists will take longer. However, navigating away from this page will not interrupt the upload. After completion of process, you will be informed by email.";
+          var msg = "While your contacts are uploading, we wanted to share that your contact list will be graded for deliverability before your first campaign is released, helping us maintain sending reputation for you and our other customers. If for some reason your contact list does not pass our deliverability grade, our support team will reach out to you for next steps.  In the meantime, please feel free to create and schedule your campaign(s). Navigating away from this page will not interrupt the upload. After completion of process, you will be informed by email.";
           $('.subscriber_msg').html(msg);
           $('.subscriber_msg').addClass('info');
 
