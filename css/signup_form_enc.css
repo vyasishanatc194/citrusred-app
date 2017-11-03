@@ -1,0 +1,37 @@
+.signupform h1, .signupform h2, .signupform h3, .signupform h4, .signupform h5, .signupform h6, .signupform p, .signupform form {
+font-size:100%;
+font-weight:normal;
+line-height:normal;
+padding:0;
+margin:0;
+}
+
+
+.signupform {background-color: #FFFFFF;padding: 15px;border: 1px solid #C3C3C3;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); margin:20px 20px 10px 20px;}
+.formTable{width:100%;font-family:Arial;}
+	.formTable td{ padding:0 10px 15px 0; font-size:13px; color:#929191; vertical-align:top;}
+	.formTable td span{color:#FF0000;}
+	.formTable h2{font-size:24px; color:#333 !important;  font-weight:bold; padding:0 0 10px 0; background:none !important;}
+	.formTable td label{ display:inline-block; padding:0 0 5px 0;}
+	.formTable input[type="text"]{-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius:2px; border:1px solid #c8c8c7; height:30px; background:#fbf8f2; line-height:30px; font-size:14px; color:#333333; width:70%; margin:0; padding:0;}
+	.formTable input[type="text"]:focus{background:#FFFFFF;}
+	.formTable textarea{-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius:2px; border:1px solid #c8c8c7; height:80px; background:#fbf8f2; line-height:18px; font-size:14px; color:#333333; width:315px; resize:none; font-family:arial; margin:0; padding:0;}
+	.formTable textarea:focus{background:#FFFFFF;}
+	.formTable .form-label {color:#929191;}
+
+
+
+	.submit_button{background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* IE10+ */
+	background: linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */ border:1px solid #ccc; font-size:14px; font-weight:bold; padding:5px 15px;-moz-box-shadow: 1px 1px 1px #888;
+	-webkit-box-shadow: 1px 1px 1px #888;
+	box-shadow: 1px 1px 1px #888;-webkit-border-radius:4px;-moz-border-radius: 4px;border-radius:4px; height:auto; cursor:pointer;}
+
+	.footlink{width:100%; color:#808080; margin:0 0 0 40px;}
+	.footlink a{ color:#808080; font-size:12px; text-decoration:underline;}
+	.footlink a:hover{ text-decoration:none;}

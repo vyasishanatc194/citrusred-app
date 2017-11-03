@@ -1,0 +1,5 @@
+Dear [FIRSTNAME_OR_USERNAME],
+ 
+Your RedCappi account needs to be upgraded before any more campaign can be sent.Currently you have [xxx_number_of_contacts_xxx] contacts in your account and your package limit is [xxx_max_contacts_xxx] contacts.
+ 
+The RedCappi Team

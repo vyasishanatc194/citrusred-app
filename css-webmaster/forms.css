@@ -1,0 +1,140 @@
+.tbl_forms {
+	padding:2px;
+	font-size:12px;
+	color:#5f5f5f;
+	font-weight:bold;
+	border:solid 1px #dedede;
+	width:100%;
+	border-collapse:collapse;
+}
+.tbl_forms td {
+	padding:8px;
+	text-align:left;
+}
+.tbl_forms input, select, textarea {
+	border: 1px solid #cccccc;
+	/*border-bottom: 1px solid #EEE;
+	border-right: 1px solid #EEE;*/
+	color: #404040;
+	padding:5px 2px;
+	margin:2px 4px 0px 0px;
+	width:250px;
+	font-size:13px;
+}
+.tbl_forms select {
+	height:27px;
+	width:255px;
+}
+.tbl_forms textarea {
+	height:auto !important;
+	width:250px;
+	font-size:15px;
+	word-spacing: normal;
+}
+.tbl_forms.input-large {
+	width:350px;
+}
+.tbl_forms .input-medium {
+	width:300px;
+}
+.tbl_forms label {
+	width:250px;
+	display:block;
+}
+.tbl_forms .none {
+width:0px;
+	display:block;
+}
+.inputbuttons {
+	background: url(../images/btn_bg.jpg) repeat-x 0px 0px;
+	display:inline-block;
+	padding:4px 18px !important;
+	border:1px solid #bdbdbc !important;
+	color:#616161 !important;
+	text-decoration:none;
+	font-size:12px !important;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:10px;
+	width:auto !important;
+}
+.inputbuttons:hover, .inputbuttons:focus {
+	background-position:-16px 0px;
+	text-decoration:none;
+	cursor: pointer;
+	color:#1084f0 !important;
+}
+.inputbuttons:active {
+	position:relative;
+	top:1px;
+}
+/*--------------------new login screen---------------*/
+.padding-none{
+padding:0!important;}
+.border-top{
+border-top:solid 2px #a6a6a6; }
+.loginwrapper-new {
+/*	background: url(../images/bgr-login-box.jpg) repeat-x 0 0;
+	border:solid 4px #a6a6a6;*/
+	margin:0 auto;
+	width:456px;
+}
+.login-bg {
+	background:url(../images/bg-login-admin.png) no-repeat 0 0;
+	margin:0px 0px 0px 0px;
+	padding:130px 0px 0px 0px;
+	height:330px;
+}
+.form-login {
+	margin:0px 0px 0px 0px;
+	width:340px;
+	padding:0px 0px 0px 50px;
+}
+.form-login em {
+	color: #f00;
+	padding-left:2px;
+}
+.form-login .input_login {
+	display: block;
+	background: #fbfbfb;
+	border:1px solid #b9b9b9;
+	border-right-color:#ececec;
+	border-bottom-color:#ececec;
+	margin:0px 0px 0px;
+	padding:2px;
+	height:17px;
+	width:210px;
+}
+.form-login .label {
+	margin: 0;
+	font-size:12px;
+	color:#842624;
+	font-weight:bold;
+}
+.form-login a {
+	margin: 0;
+	font-size:12px;
+	color:#767676;
+	text-decoration:underline;
+}
+.form-login .buttonclass {
+	background:  url(../images/bgr-buttons.jpg) repeat-x 0 0px;
+	text-align:center;
+	color:#ffffff;
+	padding:0px 15px;
+	height:25px;
+	cursor:pointer;
+	outline-width:0;
+	font-size:18px;
+	text-transform: none;
+	font-weight: normal;
+	font-family: 'CalibriRegular';/*border: solid 1px #b93733;*/
+}
+.form-login .buttonclass:hover {
+	background: url(../images/bgr-buttons.jpg) repeat-x 0 0px;
+	color:#ffffff;
+}
+.form-login .buttonclass:active {
+	margin-top:1px;
+}

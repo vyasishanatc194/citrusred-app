@@ -1,0 +1,62 @@
+
+#navigation{
+margin:0;
+}
+
+#navigation ul {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#navigation ul li {
+  display: block;
+  /*position: relative;*/
+  float:left;
+  margin:0;
+  background:url(../images/seprator.jpg) no-repeat right;
+}
+#navigation li ul { display: none;
+
+ }
+#navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #464545;
+  font-weight:bold;
+   padding:12px 15px 10px 15px;
+   margin-right:2px;
+    white-space: nowrap;
+ 
+}
+#navigation ul li a:hover { background: #f9f8f8;
+color:#006acf;}
+#navigation li:hover ul {
+  display: block;
+  position: absolute;
+}
+#navigation li:hover li {
+  float: none;
+  background:none!important;
+  font-weight:normal !important;
+  
+  
+}
+#navigation li:hover a { background: #f9f8f8;
+ }
+#navigation li:hover li a:hover { background: #f9f8f8; }
+#navigation li a.select { background: #f9f8f8; }
+
+#navigation li:hover ul  {
+border:solid 1px #d0d0d0;
+border-top:none;
+margin-left:-2px;
+z-index:10;
+}
+#navigation li:hover ul li a{
+padding:3px 15px 3px 15px;
+/*border-bottom:dashed 1px #dddddd;*/
+margin:0;}
+
+#navigation li:hover ul li a:hover{
+color:#006acf;}

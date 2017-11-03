@@ -1,0 +1,16 @@
+ 
+Hello [FIRSTNAME_OR_USERNAME],
+  
+I just received information from our billing department the your credit card on file failed to permit your recurring monthly subscription fee to go through. Your RedCappi services will be temporarily disabled until payment is received.
+
+Do you need any of my help to sort out this issue for you?
+
+Looking forward to hear from you and thanks for your valuable time.
+
+You can connect with me anytime by replying to this email.
+
+
+Cheers,
+The RedCappi Team
+https://www.redcappi.com
+

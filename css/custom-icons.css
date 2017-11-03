@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'redcappi-custom-icons';
+  src: url('../fonts/redcappi-custom-icons.eot?-t4ooj3');
+  src: url('../fonts/redcappi-custom-icons.eot?#iefix-t4ooj3') format('embedded-opentype'), url('../fonts/redcappi-custom-icons.woff?-t4ooj3') format('woff'), url('../fonts/redcappi-custom-icons.ttf?-t4ooj3') format('truetype'), url('../fonts/redcappi-custom-icons.svg?-t4ooj3#redcappi-custom-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="iconx-"],
+[class*=" iconx-"] {
+  font-family: 'redcappi-custom-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconx-share-ex:before {
+  content: "\e600";
+}

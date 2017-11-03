@@ -1,0 +1,302 @@
+.transform(@string){
+  -webkit-transform: @string;
+  -moz-transform:    @string;
+  -ms-transform:     @string;
+  -o-transform:      @string;
+}
+
+.transition(@string){
+  -webkit-transition: @string;
+  -moz-transition:    @string;
+  -ms-transition:     @string;
+  -o-transition:      @string;
+}
+
+.box-sizing(@type: border-box) {
+  -webkit-box-sizing: @type;
+  -moz-box-sizing:    @type;
+  box-sizing:         @type;
+}
+
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  border-radius:         @radius;
+}
+
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+.gradientBar(@primaryColor, @secondaryColor, @textColor: #fff, @textShadow: 0 -1px 0 rgba(0,0,0,.25)) {
+  color: @textColor;
+  text-shadow: @textShadow;
+  #gradient > .vertical(@primaryColor, @secondaryColor);
+  border-color: @secondaryColor @secondaryColor darken(@secondaryColor, 15%);
+  border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) fadein(rgba(0,0,0,.1), 15%);
+}
+
+#gradient {
+  .vertical(@startColor: #555, @endColor: #333) {
+    background-color: mix(@startColor, @endColor, 60%);
+    background-image: -moz-linear-gradient(top, @startColor, @endColor); // FF 3.6+
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)); // Safari 4+, Chrome 2+
+    background-image: -webkit-linear-gradient(top, @startColor, @endColor); // Safari 5.1+, Chrome 10+
+    background-image: -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
+    background-image: linear-gradient(to bottom, @startColor, @endColor); // Standard, IE10
+    background-repeat: repeat-x;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+  }
+}
+
+.opacity(@opacity) {
+  opacity: @opacity / 100;
+  filter: ~"alpha(opacity=@{opacity})";
+}
+
+h1, h2, h3, h4, h5, h6, p, form {
+    line-height: normal;
+    font-weight: 300;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: normal 12px/14px Arial,Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #000 !important;
+    font-style: normal;
+    text-align: left;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.signupform {
+    .box-shadow(0 0 25px -13px #828181);
+    background-color:  #fff;
+    border: 1px solid #eaeaea;
+    margin: 50px auto 20px;
+    .border-radius(5px);
+    overflow: hidden;
+    max-width: 500px;
+    min-width: 320px;
+}
+
+.formTable {
+  width: 100%;
+
+  .subscribe_to_list td {
+    padding-bottom: 22px;
+  }
+
+  td {
+      padding: 0 27px 5px;
+      vertical-align: top;
+      font-size: 13px;
+      color: #828181;
+
+      span {
+          padding: 0 0 15px;
+          line-height: 22px;
+          font-weight: 700;
+          font-size: 20px;
+          color: #f00;
+      }
+
+      label {
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-weight: 700;
+          font-size: 14px;
+          padding: 0 0 7px;
+      }
+
+      input + label {
+        font-weight: 300;
+
+        & + br:last-child {
+          margin-top: 8px;
+          display: block;
+          content: " ";
+        }
+      }
+  }
+
+  h2 {
+      -webkit-font-smoothing: antialiased;
+      padding: 22px 15px 15px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: 700;
+      background: none;
+      font-size: 26px;
+      color: #454545;
+  }
+
+  input[type="text"] {
+      .box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
+      .transition(all 0.2s linear);
+      .box-sizing(border-box);
+      .border-radius(4px);
+      font-family: inherit;
+      background: #F6F6F6;
+      margin: 0 auto 15px auto;
+      font-size: 16px;
+      display: block;
+      padding: 10px;
+      border: none;
+      max-width: 446px;
+      min-width: 270px;
+      width: 100%;
+      outline: 0;
+
+      &:focus {
+          .box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
+          background: #f2f2f2;
+      }
+  }
+
+  textarea {
+      .box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
+      .transition(all 0.2s linear);
+      border: none;
+      background: #F6F6F6;
+      .border-radius(2px);
+      line-height: 18px;
+      font-size: 14px;
+      padding: 10px;
+      height: 60px;
+      .box-sizing(border-box);
+      max-width: 424px;
+      min-width: 268px;
+      width: 100%;
+      color: #333;
+      padding: 10px;
+      margin: 0 0 20px;
+
+      &:focus {
+          .box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
+          background: #f2f2f2;
+          outline: 0;
+      }
+  }
+
+  select {
+    border: 1px solid #e0e0e0;
+    font-family: inherit;
+    background: #F6F6F6;
+    .border-radius(4px);
+    margin: 6px auto 20px;
+    line-height: 30px;
+    max-width: 446px;
+    min-width: 290px;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    outline: 0;
+  }
+
+  input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  .input-option {
+    &-container {
+      margin-bottom: 10px;
+    }
+
+    &-date {
+      margin-right: 10px;
+      display: inline;
+      max-width: 30%;
+      min-width: 30%;
+      height: 40px;
+      width: 30%;
+
+      &.last {
+        margin-right: 0;
+      }
+    }
+
+    &-fields {
+      color: #555;
+    }
+  }
+
+  .form-label {
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 0;
+      color: #828181;
+  }
+
+  .form_title {
+    padding: 0 0 10px;
+  }
+
+  .submit_button {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    padding: 7px 0;
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto 15px;
+    border: 1px solid #ccc;
+    @shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    .box-shadow(@shadow);
+    .border-radius(4px);
+    .transition(all 0.2s linear);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    #gradient > .vertical(#ff3019, #cf0404);
+    background-color: #cf0404;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      background-position: 0 -15px !important;
+      text-decoration: none;
+    }
+
+    &:active {
+      @shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+      background-image: none !important;
+      .box-shadow(@shadow);
+    }
+  }
+
+  label.error {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #F00;
+  }
+}
+
+
+.footlink {
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    color: #808080;
+
+    a {
+        color: #808080;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}

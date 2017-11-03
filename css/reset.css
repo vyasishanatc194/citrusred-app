@@ -1,0 +1,125 @@
+
+h1, h2, h3, h4, h5, h6, p, form {
+	font-size:100%;
+	font-weight:normal;
+	line-height:normal;
+	padding:0;
+	margin:0;
+}
+ body {
+	font: normal 12px/14px Arial, Helvetica, sans-serif;
+	line-height:1;
+	color: #333;
+	text-align:left;
+	padding:0;
+	margin:0;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+
+}ol, ul {
+	list-style: none;
+}
+:focus {
+	outline: 0;
+}
+img {
+	border:none;
+}
+a, a:visited {
+	color: #646262;
+	text-decoration: none;
+	outline:none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------FOR COMMON USE------------------------------------------*/
+.clear {
+	clear:both;
+	height:0px;
+}
+.fl {
+	float:left !important;
+}
+.fr {
+	float:right !important;
+}
+.alignright {
+	text-align:right !important;
+}
+.alignleft {
+	text-align:left !important;
+}
+.aligncenter {
+	text-align: center !important;
+}
+.gap {
+	clear:both;
+	width:100%;
+	height:15px;
+	float:left;
+}
+.nomargin {
+	margin:0px!important;
+}
+.nopadding {
+	padding:0px!important;
+}
+.noborder {
+	border:none!important;
+}
+.nobackground {
+	background:none!important;
+}
+.shadow {
+
+	-o-box-shadow: 5px 5px 5px #ccc;
+	-icab-box-shadow: 5px 5px 5px #ccc;
+	-khtml-box-shadow: 5px 5px 5px #ccc;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.innershadow {
+	-moz-box-shadow:inset 0 0 10px #000000;
+	-webkit-box-shadow:inset 0 0 10px #000000;
+	box-shadow:inset 0 0 10px #000000;
+}
+.border-radius {
+	-o-border-radius:10px;
+	-icab-border-radius:10px;
+	-khtml-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:solid 1px #000;
+}
+.image-display {
+	clear:left;
+	padding:4px;
+	margin:0px 10px 10px 0px;
+	border:solid 1px #cfcfcf;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	-moz-box-shadow:2px 3px 2px #dddcdc;
+	-webkit-box-shadow:2px 3px 2px #dddcdc;
+	box-shadow:2px 3px 2px #dddcdc;
+}
+.nomargin-right{
+	margin-right:0 !important;
+}
+ul{
+	margin:0;
+	padding:0;
+}

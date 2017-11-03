@@ -1,0 +1,103 @@
+@import "navigation.css?v=6-20-13";
+@import "footer.css?v=6-20-13";
+@import "layout.css?v=6-20-13";
+@import "forms.css?v=6-20-13";
+@import "tabs.css?v=6-20-13";
+@import "jquery.tabs.css?v=6-20-13";
+
+/* =============================================================================
+
+	STYLE.CSS
+	version: 1.6
+	updated: 2009-03-06, 13:00 GMT+1
+
+============================================================================= */
+
+/* =============================================================================
+HTML - styles
+============================================================================= */
+
+td{
+vertical-align:top;}
+
+ul {
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-size:100%;
+	font-weight:normal;
+}
+body {
+	background-color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color:#444444;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+img{
+border:none;
+outline:none;}
+a {
+	color:#0085cc;
+	border:none;
+	outline:none;
+	text-decoration:none;
+}
+a:hover, a:active, a:focus {
+	color:#df0000;
+}
+
+input, select, textarea {
+	border: 1px solid #cccccc;
+	/*border-bottom: 1px solid #EEE;
+	border-right: 1px solid #EEE;*/
+	color: #404040;
+	padding:5px 2px;
+	margin:4px 4px 12px 0px;
+	font-size:13px;
+}
+/* =============================================================================
+OTHERS
+============================================================================= */
+.gap{
+clear:both;
+height:12px;}
+.clear{
+clear:both;
+line-height:0px;}
+
+
+
+
+
+/* =============================================================================
+MESSAGES
+============================================================================= */
+
+.msg.warning {
+	border:2px solid #F2DD8C;
+	background-color:#FFF5CC;
+}
+.msg.warning a {
+	color:#df0000;
+}
+.msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {
+	color:#303030;
+}
+.msg.info {
+	border:2px solid #B8E2FB;
+	background-color:#E8F6FF;
+}
+.msg.done {
+	border:2px solid #BBDF8D;
+	background-color:#EAF7D9;
+}
+.msg.error {
+	border:2px solid #FFAEAE;
+	background-color:#FEEBEB;
+}
+em{
+	color:red !important;
+}

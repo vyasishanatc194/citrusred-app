@@ -1,0 +1,334 @@
+/*-------------------------------------------------------header----------------------------------------------*/
+
+#header_main {
+	margin:0 auto;
+	width:100%;
+	float:left;
+	height:141px;
+	background:url(../images-front/bg-header.jpg) repeat-x 0 0;
+}
+#logo {
+	float:left;
+	height:99px;
+	width:288px;
+}
+#logo h1 {
+	margin:10px 0 0 0;
+	padding:0;
+	display:inline-block;
+}
+#logo h1 a {
+	display:block;
+	width:288px;
+	height:85px;
+	background:url(../images-front/logo.png) no-repeat;
+}
+#logo h1 a.home {
+	display:block;
+	width:288px;
+	height:85px;
+	background:url(../images-front/homeLogo.png) no-repeat;
+}
+#logo h1 a span {
+	display:none;
+}
+.right-info {
+	float:right;
+	margin:50px 0px 0px 0px;
+	width:505px;
+	position:relative;
+}
+.right-info h6 {
+	color:#cd3939;
+	font-family: 'GeoSlab703MdBTBold';
+	text-shadow:0px 1px 0px #fff;
+	margin-top:10px;
+	font-size:16px;
+	text-align:right;
+}
+
+.right-info h6 a{
+	color:#cd3939;
+
+}
+
+.right-info h2 {
+	padding:0;
+	margin:0px 0px 0px 0px;
+	color:#64311e;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.right-info h3 {
+	padding:0;
+	margin:0;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-shadow:0px -1px 0px #bc7e22;
+}
+.right-info p {
+	padding:0;
+	margin:0;
+	color:#454545;
+	font-size:10px;
+}
+/*-------------------[LOGIN]-----------------------*/
+
+#topnav {
+	position:absolute;
+	right:0;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	line-height:23px;
+	padding:10px 0 12px;
+	top:-38px;
+	margin:0;
+}
+#topnav a.signin {
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-icab-border-radius:4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background:#ec8801;
+	color:#FFF;
+	font-weight:700;
+	position:relative;
+	float:left;
+	height:28px;
+	line-height:28px;
+	padding:0 7px;
+	text-decoration:none;
+}
+#topnav a.signin:hover {
+	background:#000;
+}
+#topnav a.signin, #topnav a.signin:hover {
+}
+a.signin {
+	margin-left:0px;
+	position:relative;
+}
+a.signin span {
+	background:url(../images-front/login-up.png) no-repeat 100% 6px;
+	padding:4px 22px 6px 0;
+}
+#topnav a.menu-open {
+	background:#000;
+	color:#666!important;
+	outline:medium none;
+}
+#topnav a.menu-open:hover {
+	background:#000;
+	color:#666!important;
+	outline:medium none;
+}
+#small_signup {
+	display:inline;
+	float:none;
+	line-height:23px;
+	margin:25px 0 0;
+	width:170px;
+}
+a.signin.menu-open span {
+	background:#000 url(../images-front/login-down.png) no-repeat 100% 6px;
+	color:#fff;
+}
+#signin_menu {
+	-o-border-radius:5px;
+	-icab-border-radius:5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:5px solid #000;
+	background:#fff;
+	color:#789;
+	display:none;
+	font-size:12px;
+	margin-right:0;
+	margin-top:5px;
+	padding:12px;
+	position:absolute;
+	right:0;
+	text-align:left;
+	top:-36px;
+	width:250px;
+	z-index:99 !important;
+	-moz-box-shadow:3px 6px 8px 1px rgba(0, 0, 0, 0.3);
+}
+#signin_menu {
+
+	background:#fff;
+	color:#789;
+	display:none;
+	font-size:12px;
+	margin-right:0;
+	margin-top:5px;
+	padding:12px;
+	position:absolute;
+	right:0;
+	text-align:left;
+	top:-36px;
+	width:250px;
+	z-index:99 !important;
+
+}
+#signin_menu p {
+	padding:0;
+}
+#signin_menu input[type=text], #signin_menu input[type=password] {
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-icab-border-radius:4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	border-color:#a4a4a4;
+	border-style:solid;
+	border-width:1px;
+	display:block;
+	font-size:13px;
+	margin:6px 0 5px;
+	padding:5px;
+	width:230px;
+	height:auto;
+}
+#signin_menu input[type=checkbox], #signin_menu input[type=radio] {
+	margin:0;
+	height:auto;
+	border:none;
+	padding:0;
+}
+#signin_menu p {
+	margin:0;
+}
+#signin_menu h4 {
+	color:#616161;
+	font-size:13px;
+	margin:0;
+	padding:0;
+}
+#signin_menu a {
+	color:#75400e;
+}
+#signin_menu label {
+	font-size:11px;
+	color:#9e9e9e;
+	margin:4px 0;
+}
+#signin_menu p.remember {
+	padding:10px 0;
+}
+#signin_menu p.forgot, #signin_menu p.complete {
+	clear:both;
+	margin:5px 0;
+}
+#signin_menu span {
+	font-size:11px;
+}
+#signin_menu p a {
+	color:#2277d5!important;
+}
+#signin_submit {
+	-o-border-radius:3px;
+	-icab-border-radius:3px;
+	-khtml-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background: url(../images-front/bgr-red.jpg) repeat-x scroll 0 0 #a50203;
+	border:1px solid #7c0001;
+	color:#fff;
+	height:auto;
+	font-size:13px;
+	font-weight: bold;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	padding:5px 10px !important;
+	text-shadow:0 1px 0 #000;
+	font-family: 'CalibriRegular';
+}
+ul.login-links {
+	padding:0;
+	margin:20px 0px 0px 0px;
+	float:right!important;
+	width:175px !important;
+}
+ul.login-links li a {
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0;
+}
+ul.login-links li.support {
+	background:url(../images-front/bg-login.png) no-repeat;
+	width:70px;
+	height:18px;
+	float:left;
+	text-align:center;
+	padding:5px 10px;
+	margin:0;
+}
+ul.login-links li.support:hover {
+	background: url(../images-front/bg-login-hover.png) no-repeat;
+	text-decoration:none;
+}
+ul.login-links li.logout {
+	background:url(../images-front/bg-login-hover.png) no-repeat right;
+	width:65px;
+	height:18px;
+	float:left;
+	text-align:center;
+	padding:5px 10px;
+	margin:0;
+}
+ul.login-links li.logout:hover {
+	background: url(../images-front/bg-login.png) no-repeat right;
+	text-decoration:none;
+}
+ul.events-arabic {
+	float:right;
+	padding:0px;
+	margin:0px;
+}
+ul.events-arabic li {
+	float:right;
+	display:block;
+	padding:0px;
+	margin:0px 5px 0px 6px;
+}
+#panel {
+	background: #754c24;
+	height: 200px;
+	display: none;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #422410;
+	background: url(images/btn-slide.gif) no-repeat center top;
+}
+.btn-slide {
+	background: url(images/white-arrow.gif) no-repeat right -50px;
+	text-align: center;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}
+
+/*-----------------navigation styles here ------------------*/
+@import "navigation.css?v=6-20-13";

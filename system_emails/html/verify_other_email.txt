@@ -1,0 +1,13 @@
+ 
+Hi [FIRSTNAME_OR_USERNAME],
+ 
+Before this account can send from this address, you must verify that you are authorized to do so below. Then, you will be able to use this address in your RedCappi account and send emails from this address.
+ 
+Verify this email address:
+ 
+[xxx_LINK_xxx]
+ 
+ 
+Cheers,
+The RedCappi Team
+ 

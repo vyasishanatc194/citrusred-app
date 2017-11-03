@@ -1,0 +1,6 @@
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Your email campaign, named "[CAMPAIGN_NAME]" has been approved by admin.
+ 
+Great job!
+The RedCappi Team

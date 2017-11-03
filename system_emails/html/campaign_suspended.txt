@@ -1,0 +1,9 @@
+Dear [FIRSTNAME_OR_USERNAME],
+ 
+Your campaign named "[CAMPAIGN_NAME]" was disallowed due to:
+[DISALLOW_REASON]
+ 
+You can view campaign by clicking here. 
+Please make any necessary adjustments and resubmit for approval once completed.
+ 
+The RedCappi Team

@@ -1,0 +1,23 @@
+RedCappi Invoice
+ 
+Order details
+Order ID: [ORDER_ID]
+Purchase Date: [PURCHASE_DATE]
+Current Plan: [CURRENT_PLAN]
+Amount: [AMOUNT_PAID]
+Card Ending In: [CARD_ENDING_IN]
+ 
+Billing details
+Billed to: [BILLED_TO]
+Company: [COMPANY]
+Phone: [PHONE]
+Email Address: [EMAIL_ADDRESS]
+Billing Address: [BILLING_ADDRESS]
+ 
+RedCappi
+Chicago, IL
+www.redcappi.com
+If you have any questions feel free to contact us at support@redcappi.com.
+ 
+Mahalo,
+The RedCappi Team

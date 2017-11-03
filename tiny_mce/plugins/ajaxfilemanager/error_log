@@ -1,0 +1,45 @@
+[01-Jan-2017 01:45:57 America/Chicago] PHP Notice:  Undefined index: path in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_preview.php on line 10
+[01-Jan-2017 01:46:41 America/Chicago] PHP Notice:  Undefined index: file_path in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_image_undo.php on line 11
+[01-Jan-2017 08:59:38 America/Chicago] PHP Fatal error:  Call to undefined function initSessionHistory() in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_editor_reset.php on line 22
+[01-Jan-2017 08:59:52 America/Chicago] PHP Notice:  Undefined index: folder in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_save_text.php on line 11
+[01-Jan-2017 08:59:52 America/Chicago] PHP Notice:  Undefined index: name in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_save_text.php on line 11
+[01-Jan-2017 09:01:08 America/Chicago] PHP Notice:  Undefined index: folder in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_save_text.php on line 11
+[01-Jan-2017 09:01:08 America/Chicago] PHP Notice:  Undefined index: name in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_save_text.php on line 11
+[01-Jan-2017 09:02:01 America/Chicago] PHP Notice:  Undefined index: folder in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_save_text.php on line 11
+[01-Jan-2017 09:09:26 America/Chicago] PHP Notice:  File does not exist  in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.file.php on line 69
+[01-Jan-2017 09:09:26 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:09:26 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:09:26 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:09:42 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:09:42 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:09:42 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:15 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:10:15 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:15 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:24 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:10:24 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:24 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:54 America/Chicago] PHP Notice:  Undefined index: search_folder in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 24
+[01-Jan-2017 09:10:54 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:10:54 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:16 America/Chicago] PHP Notice:  File does not exist  in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.file.php on line 69
+[01-Jan-2017 09:11:16 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:11:16 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:16 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:28 America/Chicago] PHP Notice:  File does not exist  in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.file.php on line 69
+[01-Jan-2017 09:11:28 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:11:28 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:28 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:47 America/Chicago] PHP Notice:  File does not exist  in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.file.php on line 69
+[01-Jan-2017 09:11:47 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:11:47 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:47 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:55 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:11:55 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:11:55 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:12:09 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:12:09 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:12:09 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:13:10 America/Chicago] PHP Warning:  Invalid error type specified in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/inc/class.manager.php on line 240
+[01-Jan-2017 09:13:10 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73
+[01-Jan-2017 09:13:10 America/Chicago] PHP Warning:  date() expects parameter 2 to be long, string given in /home/redcapp/public_html/webappassets/tiny_mce/plugins/ajaxfilemanager/ajax_get_file_listing.php on line 73

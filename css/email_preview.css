@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#diy-header-container {
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#diy-header.rcemail,
+#share-this.rcemail {
+  background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: -o-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe8e8e8', GradientType=0);
+  background-color: #e8e8e8;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.15);
+}
+#diy-header.rcemail {
+  text-align: left;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+  position: fixed;
+  z-index: 10;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#diy-header.rcemail strong {
+  font: 300 23px/38px Arial, "Lucida Grande", sans-serif;
+  color: #555;
+  text-shadow: 0 1px 1px #fff;
+  padding-left: 13px;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+}
+#share-this.rcemail {
+  position: absolute;
+  line-height: 37px;
+  padding-left: 1px;
+  right: 10px;
+}
+#footer-logo.rcemail {
+  text-align: center;
+  margin: 20px auto;
+}

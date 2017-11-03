@@ -1,0 +1,154 @@
+#outer-full-fixed {
+	position:relative;
+	width:990px;/*--for full width layout make it 99%--*/
+	margin:0 auto;
+}
+.outer-shadow-fixed {
+	position:fixed;
+	width:990px; /*--for full width layout make it 99%--*/
+	margin:0 auto;
+	top:-25px;
+	overflow:hidden;
+	-o-border-radius: 8px;
+	-icab-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border:solid 1px #bfbfbf;
+	-moz-box-shadow: 0px 5px 10px #bfbfbf;
+	-webkit-box-shadow: 0px 5px 10px #bfbfbf;
+	box-shadow: 0px 5px 10px #bfbfbf;
+	background:#ffffff url(../images-front/bg-gray.jpg) repeat-x bottom;
+}
+
+
+
+
+#outer-full {
+	position:relative;
+	width:99%;
+	margin:0 auto;
+}
+.outer-shadow {
+	position:fixed;
+	width:99%; /*--for full width layout make it 99%--*/
+	margin:0 auto;
+	top:-25px;
+	overflow:hidden;
+	-o-border-radius: 8px;
+	-icab-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border:solid 1px #bfbfbf;
+	-moz-box-shadow: 0px 5px 10px #bfbfbf;
+	-webkit-box-shadow: 0px 5px 10px #bfbfbf;
+	box-shadow: 0px 5px 10px #bfbfbf;
+	background:#fff;
+		
+}
+.yellow-bar {
+	background: url(../images-front/bg-top-diy.jpg) repeat-x 0 0;
+	width:100%;
+	height:172px;
+		margin-top:24px;
+	
+}
+#logo-diy {
+	float:left;
+	width:161px;
+	margin:10px 10px;
+	}
+#logo-diy h1 {
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+#logo-diy h1 a {
+	display:block;
+	width:161px;
+	height:38px;
+	background: url(../images-front/logo-DIY.png) no-repeat;
+}
+#logo-diy h1 a span {
+	display:none;
+}
+
+
+ul.tabs-diy {
+	padding:17px 0px 0px 0px;
+	margin:0px 0;
+	list-style: none;
+	border-bottom: 0px solid #e7e7e7;
+	float:left;
+	font-family: 'CalibriRegular';
+}
+ul.tabs-diy li {
+	float: left;
+	display:inline; /*For ignore double margin in IE6*/
+	margin:10px 6px 0px 10px;
+}
+ul.tabs-diy li a {
+	text-decoration: none;
+	float:left;
+	color: #fff;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+	text-transform:uppercase;
+	background: url(../images-front/tabs.png) no-repeat top right; /*this is none hover bg*/
+}
+ul.tabs-diy li a span {
+	margin: 0 10px 0 -10px;/*To fix margin between tab*/
+	padding:7px 8px 7px 18px;
+	position: relative; /*To fix IE6 problem (not displaying)*/
+	float:left;
+	background:url(../images-front/tabs.png) no-repeat top left;/*this is none hover bg*/
+}
+ul.tabs-diy li a.current, ul.tabs-diy li a:hover {
+	background: url(../images-front/tab-hover.png) no-repeat top right;/*this is hover bg*/
+	color:#b30203;
+}
+ul.tabs-diy li a.current span, ul.tabs-diy li a:hover span {
+	background:url(../images-front/tab-hover.png) no-repeat top left;/*this is hover bg*/
+}
+.tabs-container {
+	clear:both;
+	float:left;
+	width:100%;
+	position:relative;
+	top:17px;
+	left:25px;
+}
+.tabs-container1 {
+	left:0;
+	width:98%;
+	top:0;
+}
+.drag {
+	-o-border-radius:3px;
+	-icab-border-radius:3px;
+	-khtml-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:solid 1px #c8c8c8;
+	margin-right:25px;
+	/*	
+	-moz-box-shadow: 0px 2px 2px #bfbfbf;
+	-webkit-box-shadow: 2px 0px 2px #bfbfbf;
+	box-shadow: 2px 0px 2px #bfbfbf;*/
+	
+	
+	float:left;
+	width:69px;
+	height:78px;
+}
+.drag img {
+	display:block;
+	margin:0 auto;
+	padding:8px 0px 0px 0px;
+	text-align:center;
+}

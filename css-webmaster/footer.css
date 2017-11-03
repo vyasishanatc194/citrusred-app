@@ -1,0 +1,51 @@
+
+
+#footer{
+margin:auto;
+clear:both;
+width:1000px;}
+
+.footerlinks {
+	float:left;
+	width:650px;
+	height:30px;
+}
+.footerlinks ul {
+	padding:0;
+	margin:0px;
+	display:inline;
+}
+.footerlinks li {
+	font-size:11px;
+	display:inline;
+	float:left;
+	font-weight: normal;
+	margin-right:10px;
+	padding:10px 12px 9px 0px;
+	background: url(../images/bottom_links_seprator.jpg) no-repeat right;
+}
+.footerlinks li.none {
+	background: none;
+}
+.footerlinks li a {
+	text-decoration:none;
+	color:#9a9eac;
+}
+.footerlinks li a:hover {
+	text-decoration: underline;
+	color:#dcdcdc;
+}
+
+
+.copyright{
+float:right;
+width:300px;
+padding-top:11px;
+}
+
+.copyright p{
+font-size:11px;
+color:#9a9eac;
+text-align:right;
+
+}

@@ -1,0 +1,6 @@
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Your contacts have successfully been imported.
+ 
+Mahalo,
+The RedCappi Team

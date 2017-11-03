@@ -1,0 +1,10 @@
+Hi [FIRSTNAME_OR_USERNAME],
+ 
+Your credit card on file failed to permit your recurring monthly subscription fee to go through. RedCappi services will temporarily be disabled until payment is received.
+ 
+To reactivate your account, log in to your account, update your credit card information and make payment.
+ 
+If you have any questions feel free to contact us at support@redcappi.com.
+ 
+Mahalo,
+The RedCappi Team

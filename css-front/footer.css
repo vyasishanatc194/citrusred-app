@@ -1,0 +1,98 @@
+/*-------------------------------------------------------footer styles----------------------------------------------*/
+
+#footer_main {
+	width:100%;
+	margin:0;
+	background:#a40203 url(../images-front/bg-footer.jpg) repeat-x 0 0;
+	overflow:hidden;
+	clear:both;
+}
+.footerlinks {
+	width:666px;
+	background:url(../images-front/footer-saprator1.jpg) no-repeat right;
+	float:left;
+	margin:14px 0 0 0;
+}
+.footer-right-area {
+	width:324px;
+	background:url(../images-front/footer-logo.png) no-repeat top left;
+	float:left;
+	margin:14px 0 0 10px;
+}
+.footerlinks h5 {
+	font-size:16px;
+	color:#fff;
+	font-family:"Century Gothic";
+	line-height: normal;
+	padding:0px 0 5px 0;
+	background:url(../images-front/footer-saprator.jpg) no-repeat bottom;
+	margin:0;
+	text-transform:uppercase;
+	text-shadow:0 1px 0px #000;
+}
+.footerlinks-inner-div {
+	width:170px;
+	float:left;
+	margin:0 50px 0 0;
+}
+ul.footerlinks-navi {
+	padding:0;
+	margin:0 auto;
+	display:block;
+}
+ul.footerlinks-navi li {
+	font-size:12px;
+	display:block;
+	font-weight: normal;
+	line-height:30px;
+	padding:0px 12px 0px 0px;
+	background:url(../images-front/footer-saprator.jpg) no-repeat bottom;
+}
+ul.footerlinks-navi li.none {
+	background: none;
+}
+ul.footerlinks-navi li a {
+	text-decoration:none;
+	color:#fff;
+	text-shadow:0 1px 0px #000;
+}
+ul.footerlinks-navi li a:hover {
+	text-decoration: none;
+	color:#341f0a;
+	text-shadow:none;
+}
+.footer-right-area p {
+	font-size:11px;
+	color:#fff;
+	text-shadow:0 1px 0px #000;
+	line-height: normal;
+	padding:25px 0;
+	margin:0;
+	padding-left:210px;
+	display:block;
+	float:right;
+}
+ul.socal-icon {
+	margin:19px 0 0 0;
+	padding:0;
+	width:268px;
+	float:left;
+}
+ul.socal-icon li {
+	margin:8px 5px;
+	padding:0;
+	float:left;
+	display:block;
+	font-size:14px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+ul.socal-icon li a {
+	margin:0;
+	padding:0;
+	display:inline;
+}
+ul.socal-icon li a span {
+	margin:0px 5px 0 0;
+}

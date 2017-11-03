@@ -1,0 +1,7 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+Your contacts have been imported successfully.
+However, you have exceeded the limit of contacts for you current plan. 
+ 
+Mahalo,
+The RedCappi Team

@@ -1,0 +1,25 @@
+ 
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Hope you are doing well :) 
+
+You signed up to RedCappi Email Marketing yesterday and we want to thank you for taking out time to explore our website. However, we have noticed that you have not yet verified your email address. 
+
+In-case you haven't received any activation link from RedCappi yet, here is the link to activate your free account. 
+
+
+There's one more step left. To activate your account, please click the link below:
+ 
+[xxx_LINK_xxx]
+ 
+If you can't click it, please copy the entire link and paste it into your browser.
+[xxx_LINK_xxx]
+ 
+If you need help or have any questions, we can also setup a phone appointment or even a demo if you'd like :) 
+
+You can reach us via email at support@redcappi.com or by simply hitting reply to this email. 
+ 
+ 
+Cheers,
+The RedCappi Team
+ 

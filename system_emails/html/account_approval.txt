@@ -1,0 +1,27 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+We have a short approval process here at RedCappi to make sure that every new account meets our terms, so that we can keep up the great deliverability for all of our customers, as well as our overall commitment to anti-spam policies.
+
+Since RedCappi is a permission-based email marketing company, we will need a response to the questions below:
+
+1) Has every contact in your email list opted in, meaning they gave you permission?
+2) How were these contacts collected?
+If collected online, please provide the URL to your signup form and the web-log (with IP, date, etc.) for the opt-ins.
+If collected offline, please describe the steps on how they were collected.
+3) Did you purchase your email list, or any portion of your email list?
+4) What is the name and address of your company? How long has the company operated?
+4a) Do you have a website? (If yes, please provide the URL)
+4b) What type of emails/promotions will you be sending to your audience?
+5) Are you familiar with our permission-based email marketing policy?
+6) When was the last time you emailed your list?
+7) Have you worked with an Email Service Provider(s) before? If so, which ESP(s) and what was your reason for leaving?
+8) What is your total email list size?
+9) How often do you plan to send emails to your list?
+10) Who will be our primary point of contact and their phone number?
+
+Please reply back to this email as soon as possible, so that your account can be approved for sending.
+
+
+Cheers,
+The RedCappi Team
+http://redcappi.com

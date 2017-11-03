@@ -1,0 +1,41 @@
+#divNavigationBar {
+	width:100%;
+	height:41px;
+	float:left;
+	margin:0 0 0;
+	font-family:Calibri;
+	
+}
+#divNavigationBar ul {
+	margin:0;
+	padding:0;
+	float:left;
+}
+#divNavigationBar ul li {
+	padding-right:2px;
+	float:left;
+	list-style-type:none;
+	background:url(../images-front/seprator-pipe.jpg) no-repeat right;
+}
+#divNavigationBar ul li.last {
+	background:none;
+	padding:0;
+}
+/*Standard*/
+#divNavigationBar ul li a {
+	font-size:15px;
+	font-weight: bold;
+	padding:0 55px;
+	line-height:40px;
+	height:40px;
+	color:#fff;
+	float:left;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow:0px 1px 0px #000;
+}
+/*Hover*/
+#divNavigationBar ul li a:hover, #divNavigationBar ul li a.current {
+	/*	background:url(../images-front/bgr-hover.jpg) repeat-x 0 0;*/
+	color:#ffd1d1;
+}
